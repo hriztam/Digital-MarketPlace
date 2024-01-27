@@ -1,6 +1,25 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
+import { ArrowDownToLine, CheckCircle, Leaf } from "lucide-react";
+
+const perks = [
+  {
+    name: "Instant Delivery",
+    Icon: ArrowDownToLine,
+    description: "Get your assets in seconds.",
+  },
+  {
+    name: "Instant Delivery",
+    Icon: CheckCircle,
+    description: "Get your assets in seconds.",
+  },
+  {
+    name: "Instant Delivery",
+    Icon: Leaf,
+    description: "Get your assets in seconds.",
+  },
+];
 
 export default function Home() {
   return (
@@ -9,7 +28,7 @@ export default function Home() {
         <div className="py-20 mx-auto text-center flex flex-col items-center max-w-3xl">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Your marketplace for high-quality{" "}
-            <span className="text-blue-600">digital assets</span>.
+            <span className="text-violet-600">digital assets</span>.
           </h1>
           <p className="mt-6 text-lg max-w-prose text-muted-foreground">
             Welcome to PixelPenguins. Find all the digital assets
@@ -27,7 +46,20 @@ export default function Home() {
 
       <section className="border-t border-gray-200 bg-gray-50">
         <MaxWidthWrapper className="py-20">
-          <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 gap-x-8 lg:gap-y-0"></div>
+          <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 gap-x-8 lg:gap-y-0">
+            {perks.map((perk) => (
+              <div
+                key={perk.name}
+                className="text-centre md:flex md:items-start md:text-left lg:block lg:text-center"
+              >
+                <div className="md:flex-shrink-0 flex justify-center">
+                  <div className="h-16 w-16 flex items-center justify-center rounded-full bg-violet-100 text-violet-900 ">
+                    {<perk.Icon className="h-1/3 w-1/3" />}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </MaxWidthWrapper>
       </section>
     </>
