@@ -10,14 +10,14 @@ const perks = [
     description: "Get your assets in seconds.",
   },
   {
-    name: "Instant Delivery",
+    name: "Guaranted quality",
     Icon: CheckCircle,
-    description: "Get your assets in seconds.",
+    description: "Top Notch qualtiy.",
   },
   {
-    name: "Instant Delivery",
+    name: "Saves trees",
     Icon: Leaf,
-    description: "Get your assets in seconds.",
+    description: "We donate 1% of our revenue to plant trees.",
   },
 ];
 
@@ -56,6 +56,15 @@ export default function Home() {
                   <div className="h-16 w-16 flex items-center justify-center rounded-full bg-violet-100 text-violet-900 ">
                     {<perk.Icon className="h-1/3 w-1/3" />}
                   </div>
+                </div>
+
+                <div className="mt-6 flex flex-col items-center md:ml-4 md:mt-0 lg:ml-0 lg:mt-6">
+                  <h3 className="text-base font-medium text-gray-900">
+                    {perk.name}
+                  </h3>
+                  <p className="mt-3 text-sm text-muted-foreground">
+                    {perk.description}
+                  </p>
                 </div>
               </div>
             ))}
