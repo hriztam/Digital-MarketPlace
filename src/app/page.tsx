@@ -10,12 +10,12 @@ const perks = [
     description: "Get your assets in seconds.",
   },
   {
-    name: "Guaranted quality",
+    name: "Guaranted Quality",
     Icon: CheckCircle,
     description: "Top Notch qualtiy.",
   },
   {
-    name: "Saves trees",
+    name: "Save Planet",
     Icon: Leaf,
     description: "We donate 1% of our revenue to plant trees.",
   },
