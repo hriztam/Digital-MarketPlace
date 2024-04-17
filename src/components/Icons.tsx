@@ -15,11 +15,11 @@ export const Icons = {
       preserveAspectRatio="xMidYMid meet"
       fill="#000000"
     >
-      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></g>
       <g id="SVGRepo_iconCarrier">
         <path
@@ -42,13 +42,13 @@ export const Icons = {
           x2="69.459"
           y2="34.253"
         >
-          <stop offset=".362" stop-color="#9846fb"></stop>
-          <stop offset=".412" stop-color="#9149fd"></stop>
-          <stop offset=".51" stop-color="#8b3dff"></stop>
-          <stop offset=".646" stop-color="#822eff"></stop>
-          <stop offset=".788" stop-color="#811cfd"></stop>
-          <stop offset=".817" stop-color="#811cfd"></stop>
-          <stop offset=".944" stop-color="#8000ff"></stop>
+          <stop offset=".362" stopColor="#9846fb"></stop>
+          <stop offset=".412" stopColor="#9149fd"></stop>
+          <stop offset=".51" stopColor="#8b3dff"></stop>
+          <stop offset=".646" stopColor="#822eff"></stop>
+          <stop offset=".788" stopColor="#811cfd"></stop>
+          <stop offset=".817" stopColor="#811cfd"></stop>
+          <stop offset=".944" stopColor="#8000ff"></stop>
         </linearGradient>
         <path
           d="M39.78 38.37s-6.1 6.34-6.66 15.06c-.47 7.33-.52 20.69 3.71 32.66s12.25 21.87 23.93 24.21c12.64 2.54 26.65-1.92 27.08-2.06c.42-.14-2.53-3.28-4.6-6.38c-1.57-2.36-3.61-7.6-3.61-7.6s.14 4.04-2.46 4.36c-1.98.25-4.79-1.69-6.9-6.34c-2.11-4.65-4.98-17.27-5.77-27.66c-.7-9.29.25-15.27 1.2-17.88c.57-1.57 1.72-2.64 1.72-2.64s3.2 3.89 8.27 2.57c4.88-1.27 6.1-6.62 5.26-10.98c-1.01-5.21-3.1-10.84-10.18-9.29c-8.04 1.76-5.24 12.14-5.24 12.14s-5.74 4.68-13.76 3.84c-8.05-.84-11.99-4.01-11.99-4.01z"
